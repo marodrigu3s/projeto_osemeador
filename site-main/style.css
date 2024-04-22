@@ -1,0 +1,366 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@font-face {
+    font-family: 'zabal';
+    src: url(fonts/ZabalDEMO-Regular.otf);
+}
+
+@font-face {
+    font-family: 'zabalbold';
+    src: url(fonts/ZabalDEMO-Bold.otf);
+}
+@font-face {
+    font-family: 'zabalextrabold';
+    src: url(fonts/ZabalDEMO-ExtraBold.otf);
+}
+
+/* css header */
+.cabecalho{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.titulo{
+    color:rgba(0, 38, 83, 1);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'zabalextrabold';
+}
+.logo{
+    position: inherit
+}
+.login{
+    display: flex;
+    margin-left: 85%;
+
+}
+.login p{
+    margin-left: 10px;
+}
+#nav{
+  align-items: center;
+  justify-content:space-evenly;
+  font-family: 'zabal';
+}
+
+/* footer */
+footer{
+    background-color:rgba(0, 77, 142, 1);
+    color: white;
+}
+
+#footer_content{
+    background-color:rgba(0, 77, 142, 1);
+}
+ .social_media{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 25px;
+}
+#Text1 {
+    margin-right: 10px;;
+    font-family: 'zabal';
+    text-align: end;
+}
+#Text2 {
+    margin-right: 10px;
+    font-family: 'zabal';
+    text-align: end;
+}
+/* area colaborador */
+.coluna{
+    flex-direction: column;
+    gap: 20px;
+}
+#container_colaborador{
+    font-family: 'zabal';
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+#login_form{
+    background-color:#002653;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 40px;
+    border-radius: 20px;
+    gap: 30px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.336);
+    height: fit-content;
+}
+#cadastro_form{
+    background-color:#002653;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 40px;
+    border-radius: 20px;
+    gap: 30px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.336);
+    height: fit-content;
+}
+#form_header h1{
+    font-family: 'zabal';
+    color: white;
+    position: relative;
+}
+#form_header h1::before{
+    position: absolute;
+    content: '';
+    width: 45%;
+    background-color: aliceblue;
+    height: 3px;
+    bottom: 3px;
+    border-radius: 5px;
+}
+#inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: aliceblue
+}
+.input-field{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 3px;
+    cursor: text;
+    border-bottom: 1px solid aliceblue;
+}
+.input-field input{
+    border: none;
+    background-color: transparent;
+    width: 260px;
+    font-size: 18px;
+    padding: 0px 5px;
+    color: white;
+    font-family: 'zabal';
+}
+.input-field input:focus{
+    outline:none;
+}
+#cadastro a{
+    text-decoration: none;
+    font-size: 12px;
+    color: aliceblue;
+}
+#cadastro a:hover{
+    color: #FF5C00;
+}
+#login_button{
+    color: white;
+    border: none;
+    padding: 7px;
+    margin-top: 20px;
+    margin-left: 70px;
+    font-size: 18px;
+    border-radius: 3px;
+    font-family: 'zabalbold';
+    cursor: pointer;
+    padding-inline: 60px;
+}
+#login_button a{
+    text-decoration: none;
+    color: #002653;
+}
+#login_button:hover{
+    transform: scale(1.05);
+}
+
+#cadastro_button{
+    border: none;
+    background: aliceblue;
+    padding: 7px;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 18px;
+    border-radius: 3px;
+    font-family: 'zabal';
+    cursor: pointer;
+    padding-inline: 60px;
+}
+#cadastro_button  a{
+    text-decoration: none;
+    color: #002653;
+
+}
+#cadastro_button:hover{
+    transform: scale(1.05);
+}
+/* página contato */
+p.texto-contato{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: 'zabal';
+}
+#box-container{
+    width: 450px;
+    height: 135px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    text-align: center;
+    border-radius: 40px;
+    background: rgba(255, 92, 0, 0.45);
+}
+/* página seja voluntário */
+ h2.sejaumvoluntario{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: #002653;
+    text-align: center;
+    font-family: 'zabalbold';
+ }
+
+ p.sejavoluntario{
+    width: 750px;
+    border-radius: 20px;
+    background: rgba(0, 77, 142, 0.44);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'zabal';
+ }
+
+button.botao-form-voluntario{
+    color: white;
+    margin-left: 530px;
+    margin-bottom: 40px;
+    width: 305px;
+    height: 50px;
+    border-radius: 60px;
+    border: 1px solid #FF5C00;
+    text-align: center;
+    background: #FF5C00;
+    font-family: 'zabal';
+    font-weight: 25;
+}
+/* conteudos paginas sobre(historia,niveis,infra..) */
+.conteudo h2{
+    color: #002653;
+    font-family: 'zabalbold';
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.conteudo p{
+    font-family: 'zabal';
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    padding-left: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+/* outras formas de doar */
+#img-outras{
+    padding-bottom: 25px;
+}
+#outras h2{
+    color: #002653;
+    font-family: 'zabalbold';
+    padding-top: 30px;
+}
+#outras p{
+    font-family: 'zabal';
+    text-align: justify;
+}
+/* carrossel - home */
+.carrossel{
+    width: 90%;
+    padding-left: 140px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.saiba-mais{
+    background-color: #002653;
+    border-radius: 20px;
+    color: white;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#legenda{
+    font-family: 'zabal';
+    color: black;
+}
+/* página agendar visita */
+.titulo-2{
+    color:rgba(0, 38, 83, 1);
+    text-align: left;
+    padding-top: 50px;
+    font-family: 'zabalbold';
+}
+.center{
+    text-align: center;
+    padding: 30px;
+}
+.btn-doar{
+    width: 352px;
+    height: 44px;
+    flex-shrink: 0;
+    border: 1px solid rgba(0, 38, 83, 1);
+    border-radius: 50px;
+    background: rgba(0, 38, 83, 1);
+    text-align: center;
+    color: white;
+}
+#texto-visita{
+    font-family: 'zabal';
+}
+/* página nota fiscal */
+#img-nota{
+    padding-bottom: 25px;
+}
+#nota-fiscal p{
+    font-family: 'zabal';
+    text-align: justify;
+}
+#site-nota{
+    color: #FF5C00;
+}
+/* página eventos (festividades) */
+#texto-primavera a{
+    color: blue;
+    font-family: 'zabal';
+}
+/* pagina parceiro */
+.btn-parceiro{
+    width: 352px;
+    height: 44px;
+    flex-shrink: 0;
+    border: 1px solid #FF5C00;
+    border-radius: 50px;
+    background: #FF5C00;
+    text-align: center;
+    color: white;
+    margin-bottom: 100px;
+    
+}
+p.legenda {
+    color: black;
+    font-family: 'zabalbold';
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 60px;
+    background: #d9cfb06f;
+
+}
+  

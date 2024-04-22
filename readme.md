@@ -1,0 +1,1 @@
+O Projeto Integrador Interdisciplinar do 2° semestre teve como objetivo criar um site institucional para uma instituição parceira. Nesse sentido, desenvolvemos o site da escola O Semeador. Dentre vários projetos apresentados por vários grupos, tivemos a satisfação de ter o nosso site escolhido para ser implementado. 
