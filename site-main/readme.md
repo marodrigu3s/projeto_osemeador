@@ -1,6 +1,6 @@
 Projeto Integrador Interdisciplinar para O Semeador 
  
-Para visualizar o projeto faça download e comece por pii.html
+Para visualizar o projeto faça download e comece por index.html
 
 Realizado por:
 - Daniela Jacome, 23.00886-5 
