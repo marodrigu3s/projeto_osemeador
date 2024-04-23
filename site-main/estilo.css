@@ -23,6 +23,10 @@ button {
   cursor: pointer;
 }
 
+.conteudo center {
+  margin-bottom: 20px;
+}
+
 .container {
   width: 90%;
   height: 80%;
@@ -115,6 +119,17 @@ tbody tr td.acao {
     font-size: 10px;
   }
   
+  .header (
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  )
+
+  .carrossel (
+    width: 100%;
+    height: 240px;
+  )
+
   .header span {
     font-size: 15px;
   }
